@@ -1,0 +1,80 @@
+Question: 1. List 5 difference between Browser JS(console) v Nodejs
+
+Answer:
+
+	Browser JS				NodeJS
+
+1. Javascript is a programming language	NodeJS is Javascript runtime environment.
+that is used for writing scripts on the website.
+
+2. Javascript can only be run in the browsers.	We can run javascript outside the browser with 						help of NodeJS
+
+3. It is basically used on the clien side.		 It mostly used on the server side.
+
+4. Javascript is capable enough to add 
+HTML and play with DOM.			 NodeJS does not have capability to add HTML					 	 tags.
+
+5. Javascript can run in any browser engine	 V8 is the Javascript engine inside of node.js	
+like as V8 in Chrome and SpiderMonkey in 	 that parses and runs javascript.
+Firefox.
+
+
+Question: 2. watch & summary 5 points 
+
+Answer:
+
+1. Parsing -> DOM Tree => we parse HTML & CSS that creates DOM tree
+2. DOM Tree -> Render Tree => Then the DOM tree gets converted into a render tree, so the CSS and HTML combined
+3. There are 4 trees => layers, line boxes, render objects, render styles
+4. Layout computes where a Node will be on the screen
+5. Painting computes bitmaps and composites to screen
+
+Question: 4. Execute the below code and write your description in txt file
+a. typeof(1)
+b. typeof(1.1)
+c. typeof('1.1')
+d. typeof(true)
+e. typeof(null)
+f. typeof(undefined)
+g. typeof([])
+h. typeof({})
+i. typeof(NaN)
+
+Answer:
+
+a. typeof(1) -> number
+
+typeof(1) is a number. A number is a primitive data type in Javascript. 
+
+b. typeof(1.1) -> number
+
+typeof(1.1) is also a number. A number contains whole number and floating number. There is no float data type in JS.
+
+c. typeof('1.1') -> string
+
+typeof('1.1') is a string. Any text contains within the quotes(whether it is single or double quotes) that is called string. A string is a sequence of characters. 
+
+d. typeof(true) -> boolean
+
+typeof(true) is a boolean. Boolean have two values: true and false.
+
+e. typeof(null) -> object
+
+typeof(null) is an object.
+
+f. typeof(undefined) -> undefined
+
+typeof(undefined) is an undefined. A variable that has not been assigned the value then it  undefined is the value of the variable.
+
+g. typeof([]) -> object
+
+typeof([]) is an object. [] this is represents an empty array. 
+
+h. typeof({}) -> object
+
+typeof({}) is an object.
+
+i. typeof(NaN) -> number
+
+NaN in JavaScript stands for "Not A Number", although its type is actually number. 
+typeof(NaN) => "number"
